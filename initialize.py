@@ -18,4 +18,4 @@ async def hi(ctx, user):
     await ctx.respond(f"{ctx.author.mention} says hello to {user.name}!")
 
 
-bot.run()
+bot.run("Key would go here")
